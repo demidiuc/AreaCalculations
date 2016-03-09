@@ -3,15 +3,15 @@
  */
 public class Triangle {
     //S=1/2*b*h
-    double side;
-    double height;
+    private double side;
+    private double height;
 
-    Triangle(double x, double y) {
+    public Triangle(double x, double y) {
         side=x;
         height=y;
     }
 
-    double triangleArea() {
+    public double triangleArea() {
         return (side*height)/2;
     }
 }
