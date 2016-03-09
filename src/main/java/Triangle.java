@@ -11,7 +11,7 @@ public class Triangle {
         this.height=y;
     }
 
-    public double triangleArea() {
+    public double calcArea() {
         return (side*height)/2;
     }
 }
