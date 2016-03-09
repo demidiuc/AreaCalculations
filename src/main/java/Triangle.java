@@ -7,8 +7,8 @@ public class Triangle {
     private double height;
 
     public Triangle(double x, double y) {
-        side=x;
-        height=y;
+        this.side=x;
+        this.height=y;
     }
 
     public double triangleArea() {
