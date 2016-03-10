@@ -6,12 +6,16 @@ public class Rectangle {
     private double sideA;
     private double sideB;
 
-    Rectangle(double x, double y) {
+    public Rectangle(double x, double y) {
         this.sideA=x;
         this.sideB=y;
     }
 
     public double calcArea() {
         return sideA*sideB;
+    }
+
+    public double calcPerimeter() {
+        return 2*sideA+2*sideB;
     }
 }

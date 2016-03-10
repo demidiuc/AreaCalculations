@@ -9,4 +9,10 @@ public class SquareTest {
         Square s=new Square(10);
         Assert.assertEquals(100, Math.round(s.calcArea()));
     }
+
+    @Test
+    public void SquarePerimeterTest() {
+        Square sp = new Square(5.3);
+        Assert.assertEquals(21.2, sp.calcPerimeter(), 0.0f);
+    }
 }

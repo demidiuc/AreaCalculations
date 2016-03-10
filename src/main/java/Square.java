@@ -5,11 +5,15 @@ public class Square {
     //S=pow(side, 2)
     private double sideA;
 
-    Square(double x) {
+    public Square(double x) {
         this.sideA=x;
     }
 
     public double calcArea() {
         return Math.pow(sideA, 2);
+    }
+
+    public double calcPerimeter() {
+        return 4*sideA;
     }
 }

@@ -9,5 +9,11 @@ public class CircleTest {
         Circle c=new Circle(10);
         Assert.assertEquals(314,Math.round(c.calcArea()));
     }
+
+    @Test
+    public void CirclePerimeterTest() {
+        Circle cp=new Circle(100);
+        Assert.assertEquals(628, Math.round(cp.calcPerimeter()));
+    }
 }
 

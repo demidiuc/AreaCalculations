@@ -3,15 +3,28 @@
  */
 public class Triangle {
     //S=1/2*b*h
-    private double side;
+    private double sideA;
+    private double sideB;
+    private  double sideC;
     private double height;
 
     public Triangle(double x, double y) {
-        this.side=x;
+        this.sideA=x;
         this.height=y;
     }
 
+    public Triangle(double a, double b, double c) {
+        this.sideA=a;
+        this.sideB=b;
+        this.sideC=c;
+    }
+
+
     public double calcArea() {
-        return (side*height)/2;
+        return (sideA*height)/2;
+    }
+
+    public double calcPerimeter(){
+        return sideA+sideB+sideC;
     }
 }
