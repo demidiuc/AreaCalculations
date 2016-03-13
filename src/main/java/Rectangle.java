@@ -1,7 +1,7 @@
 /**
  * Created by Serg on 08.03.2016.
  */
-public class Rectangle {
+public class Rectangle implements FirstInterface {
     //S=a*b
     private double sideA;
     private double sideB;

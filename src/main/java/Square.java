@@ -1,7 +1,7 @@
 /**
  * Created by Serg on 09.03.2016.
  */
-public class Square {
+public class Square implements FirstInterface {
     //S=pow(side, 2)
     private double sideA;
 

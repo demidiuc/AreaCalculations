@@ -1,7 +1,7 @@
 /**
  * Created by Serg on 08.03.2016.
  */
-public class Triangle {
+public class Triangle implements FirstInterface {
     //S=1/2*b*h
     private double sideA;
     private double sideB;
