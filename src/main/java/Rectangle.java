@@ -7,8 +7,8 @@ public class Rectangle implements FirstInterface {
     private double sideB;
 
     public Rectangle(double x, double y) {
-        this.sideA=x;
-        this.sideB=y;
+        this.sideA=sideA;
+        this.sideB=sideB;
     }
 
     public double calcArea() {

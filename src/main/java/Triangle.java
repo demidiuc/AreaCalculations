@@ -5,18 +5,23 @@ public class Triangle implements FirstInterface {
     //S=1/2*b*h
     private double sideA;
     private double sideB;
-    private  double sideC;
+    private double sideC;
     private double height;
 
-    public Triangle(double x, double y) {
+    /*public Triangle(double x, double y) {
         this.sideA=x;
         this.height=y;
+    }*/
+
+    public Triangle(double x, double h) {
+        this.sideA=x;
+        this.height=h;
     }
 
-    public Triangle(double a, double b, double c) {
-        this.sideA=a;
-        this.sideB=b;
-        this.sideC=c;
+    public Triangle(double x, double y, double z) {
+        this.sideA=x;
+        this.sideB=y;
+        this.sideC=z;
     }
 
 
