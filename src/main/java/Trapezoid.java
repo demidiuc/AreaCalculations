@@ -19,12 +19,25 @@ public class Trapezoid implements FirstInterface {
         return ((sideA+sideB)*height)/2;
     }
 
+    public  Trapezoid(double sideA, double sideB, double sideC, double sideD, double height) {
+        this.sideA=sideA;
+        this.sideB=sideB;
+        this.sideC=sideC;
+        this.sideD=sideD;
+        this.height=height;
+    }
+
     public double calcAreaAlt() {
-        Triangle tr = new Triangle(5, 5);
+        double cathetusA;
+        double cathetusB;
+        cathetusA=Math.sqrt(Math.pow(sideC, 2) - Math.pow(height, 2));
+        cathetusB=Math.sqrt(Math.pow(sideC, 2) - Math.pow(height, 2));
+
+        //Triangle tr = new Triangle(5, 5);
         return 0;
     }
 
     public double calcPerimeter() {
-        return 0;
+        return Double.parseDouble(null);
     }
 }

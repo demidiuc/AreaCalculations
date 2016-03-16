@@ -16,6 +16,6 @@ public class Ellipse implements FirstInterface {
 
     public double calcPerimeter() {
 
-        return 4*(Math.PI*axisA*axisB + Math.pow((axisA-axisB),2))/(axisA+axisB);
+        return (4 * ((Math.PI * axisA * axisB) + Math.pow((axisA - axisB), 2))) / (axisA + axisB);
     }
 }

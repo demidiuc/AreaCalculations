@@ -6,7 +6,7 @@ public class Rectangle implements FirstInterface {
     private double sideA;
     private double sideB;
 
-    public Rectangle(double x, double y) {
+    public Rectangle(double sideA, double sideB) {
         this.sideA=sideA;
         this.sideB=sideB;
     }
