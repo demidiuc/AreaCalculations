@@ -1,7 +1,7 @@
 /**
  * Created by Serg on 09.03.2016.
  */
-public class Square implements FirstInterface {
+public class Square implements CalcAreaPerimeterInterface {
     //S=pow(side, 2)
     private double sideA;
 

@@ -1,7 +1,7 @@
 /**
  * Created by Serg on 15.03.2016.
  */
-public class Parallelogram implements FirstInterface {
+public class Parallelogram implements CalcAreaPerimeterInterface {
     double sideA;
     double sideB;
     double height;

@@ -1,7 +1,7 @@
 /**
  * Created by Serg on 15.03.2016.
  */
-public class Ellipse implements FirstInterface {
+public class Ellipse implements CalcAreaPerimeterInterface {
     double axisA;
     double axisB;
 
@@ -16,6 +16,6 @@ public class Ellipse implements FirstInterface {
 
     public double calcPerimeter() {
 
-        return (4 * ((Math.PI * axisA * axisB) + Math.pow((axisA - axisB), 2))) / (axisA + axisB);
+        return 4 * (Math.PI * axisA * axisB + Math.pow(axisA - axisB, 2)) / (axisA + axisB);
     }
 }

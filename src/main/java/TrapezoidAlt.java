@@ -36,9 +36,5 @@ public class TrapezoidAlt {
 
     }
 
-    public static void main(String[] args) {
-        TrapezoidAlt test = new TrapezoidAlt(4, 10, 5, 5, 5);
-        System.out.println(test.calcAreaAlt());
-    }
-}
+ }
 

@@ -2,7 +2,7 @@
  * Created by Serg on 15.03.2016.
  */
 
-public class Trapezoid implements FirstInterface {
+public class Trapezoid implements CalcAreaPerimeterInterface {
     double sideA;
     double sideB;
     double sideC;
@@ -27,15 +27,6 @@ public class Trapezoid implements FirstInterface {
         this.height=height;
     }
 
-    public double calcAreaAlt() {
-        double cathetusA;
-        double cathetusB;
-        cathetusA=Math.sqrt(Math.pow(sideC, 2) - Math.pow(height, 2));
-        cathetusB=Math.sqrt(Math.pow(sideC, 2) - Math.pow(height, 2));
-
-        //Triangle tr = new Triangle(5, 5);
-        return 0;
-    }
 
     public double calcPerimeter() {
         return Double.parseDouble(null);

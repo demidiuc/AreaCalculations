@@ -1,7 +1,7 @@
 /**
  * Created by Serg on 08.03.2016.
  */
-public class Triangle implements FirstInterface {
+public class Triangle implements CalcAreaPerimeterInterface {
     //S=1/2*b*h
     private double sideA;
     private double sideB;

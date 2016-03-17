@@ -1,7 +1,7 @@
 /**
  * Created by Serg on 15.03.2016.
  */
-public class Rhombus implements FirstInterface {
+public class Rhombus implements CalcAreaPerimeterInterface {
     double diagonalP;
     double diagonalQ;
     double sideA;

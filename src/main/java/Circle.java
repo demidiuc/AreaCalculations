@@ -2,7 +2,7 @@
  * Created by Serg on 08.03.2016.
  */
 
-public class Circle implements FirstInterface {
+public class Circle implements CalcAreaPerimeterInterface {
     //S=pi*r*r
     //Math.PI
     private double radius;
