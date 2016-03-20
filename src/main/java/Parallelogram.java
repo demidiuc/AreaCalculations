@@ -1,7 +1,7 @@
 /**
  * Created by Serg on 15.03.2016.
  */
-public class Parallelogram implements CalcAreaPerimeterInterface {
+public class Parallelogram implements GeometicFiguresCalculation {
     double sideA;
     double sideB;
     double height;

@@ -1,7 +1,7 @@
 /**
  * Created by Serg on 09.03.2016.
  */
-public class Square implements CalcAreaPerimeterInterface {
+public class Square implements GeometicFiguresCalculation {
     //S=pow(side, 2)
     private double sideA;
 

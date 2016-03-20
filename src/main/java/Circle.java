@@ -2,7 +2,7 @@
  * Created by Serg on 08.03.2016.
  */
 
-public class Circle implements CalcAreaPerimeterInterface {
+public class Circle implements GeometicFiguresCalculation {
     //S=pi*r*r
     //Math.PI
     private double radius;

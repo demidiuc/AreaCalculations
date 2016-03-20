@@ -1,7 +1,7 @@
 /**
  * Created by Serg on 15.03.2016.
  */
-public class Ellipse implements CalcAreaPerimeterInterface {
+public class Ellipse implements GeometicFiguresCalculation {
     double axisA;
     double axisB;
 

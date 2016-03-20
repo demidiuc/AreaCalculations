@@ -2,7 +2,7 @@
  * Created by Serg on 15.03.2016.
  */
 
-public class Trapezoid implements CalcAreaPerimeterInterface {
+public class Trapezoid implements GeometicFiguresCalculation {
     double sideA;
     double sideB;
     double sideC;
@@ -19,16 +19,16 @@ public class Trapezoid implements CalcAreaPerimeterInterface {
         return ((sideA+sideB)*height)/2;
     }
 
-    public  Trapezoid(double sideA, double sideB, double sideC, double sideD, double height) {
+    public  Trapezoid(double sideA, double sideB, double sideC, double sideD) {
         this.sideA=sideA;
         this.sideB=sideB;
         this.sideC=sideC;
         this.sideD=sideD;
-        this.height=height;
+
     }
 
 
     public double calcPerimeter() {
-        return Double.parseDouble(null);
+        return sideA+sideB+sideC+sideD ;
     }
 }

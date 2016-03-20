@@ -1,7 +1,7 @@
 /**
  * Created by Serg on 15.03.2016.
  */
-public class Rhombus implements CalcAreaPerimeterInterface {
+public class Rhombus implements GeometicFiguresCalculation {
     double diagonalP;
     double diagonalQ;
     double sideA;

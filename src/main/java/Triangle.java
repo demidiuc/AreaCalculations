@@ -1,7 +1,7 @@
 /**
  * Created by Serg on 08.03.2016.
  */
-public class Triangle implements CalcAreaPerimeterInterface {
+public class Triangle implements GeometicFiguresCalculation {
     //S=1/2*b*h
     private double sideA;
     private double sideB;

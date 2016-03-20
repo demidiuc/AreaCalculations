@@ -1,7 +1,7 @@
 /**
  * Created by Serg on 13.03.2016.
  */
-public interface CalcAreaPerimeterInterface {
+public interface GeometicFiguresCalculation {
     double calcArea();
     double calcPerimeter();
 }
