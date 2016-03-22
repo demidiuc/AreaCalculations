@@ -1,3 +1,5 @@
+package geom_figures_interface;
+
 /**
  * Created by Serg on 13.03.2016.
  */

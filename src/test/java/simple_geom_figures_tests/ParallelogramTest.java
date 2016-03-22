@@ -1,8 +1,10 @@
-/**
+package simple_geom_figures_tests; /**
  * Created by Serg on 15.03.2016.
  */
 import org.junit.Test;
 import org.junit.Assert;
+import simple_geom_figures.Parallelogram;
+
 public class ParallelogramTest {
     @Test
     public void ParallelogramAreaTest() {

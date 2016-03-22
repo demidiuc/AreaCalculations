@@ -1,3 +1,5 @@
+package simple_geom_figures;
+
 public class TriangleAltern {
     private double side;
     private double height;

@@ -1,3 +1,9 @@
+package complex_geom_figures;
+
+import simple_geom_figures.Rectangle;
+import simple_geom_figures.Square;
+import simple_geom_figures.Triangle;
+
 /**
  * Created by Serg on 16.03.2016.
  */

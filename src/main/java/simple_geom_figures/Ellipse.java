@@ -1,3 +1,7 @@
+package simple_geom_figures;
+
+import geom_figures_interface.GeometicFiguresCalculation;
+
 /**
  * Created by Serg on 15.03.2016.
  */

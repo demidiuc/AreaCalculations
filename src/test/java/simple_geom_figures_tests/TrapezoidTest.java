@@ -1,8 +1,9 @@
-/**
+package simple_geom_figures_tests; /**
  * Created by Serg on 08.03.2016.
  */
 import org.junit.Assert;
 import org.junit.Test;
+import simple_geom_figures.Trapezoid;
 
 public class TrapezoidTest {
 

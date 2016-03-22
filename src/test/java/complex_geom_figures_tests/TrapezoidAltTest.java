@@ -1,6 +1,7 @@
-/**
+package complex_geom_figures_tests; /**
  * Created by Serg on 17.03.2016.
  */
+import complex_geom_figures.TrapezoidAlt;
 import org.junit.Test;
 import org.junit.Assert;
 
