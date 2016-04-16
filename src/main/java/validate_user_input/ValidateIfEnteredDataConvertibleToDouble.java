@@ -4,7 +4,7 @@ import simple_geom_figures.Triangle;
 import java.util.Scanner;
 import java.util.IllegalFormatConversionException;
 
-public class ValidateDataForGeomFigures {
+public class ValidateIfEnteredDataConvertibleToDouble {
     public static double userInputValidation() {
         Scanner scanner = new Scanner(System.in);
         Double dataFromUser = null;

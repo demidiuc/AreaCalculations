@@ -4,7 +4,7 @@ package validate_user_input;
 import java.util.IllegalFormatConversionException;
 import java.util.Scanner;
 
-public class UserInput {
+public class ValidateWhatFigureSelected {
 
     public static int validateUserInput(){
         //Создаем новый объект класса Scanner
